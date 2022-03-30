@@ -1,0 +1,75 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.page{
+  display: flex;
+  flex-direction: column;
+}
+.tittle1{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height:10vh;
+  margin-bottom: 2rem;
+}
+.Images{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.photos{
+  border-radius: 50%;
+  width:16rem;
+  height:16rem;
+  border: solid green;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.adopption{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+.final{
+  background-color: #F5F5DC;
+  height:15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socialmidias{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.lista{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+}
+.phrase{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  height:10vh;
+}
+.listpets{
+  border: double;
+  width:12rem;
+  background-color: #F5F5DC;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  color:black;
+ }
+ a:hover{
+   font-weight: bolder;
+ }
